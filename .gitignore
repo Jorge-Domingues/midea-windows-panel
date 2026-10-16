@@ -1,0 +1,30 @@
+# ============================================================
+# SEGREDO NUNCA versionar — token/key do ar e rede pessoal
+# ============================================================
+devices.json
+tray_config.json
+
+# ambiente / caches / artefatos de build
+.venv/
+__pycache__/
+*.pyc
+.tmp/
+# Distribuição: publicar o executável, mas nunca dados locais
+dist/*
+!dist/Painel AC.exe
+dist/devices.json
+dist/tray_config.json
+build/
+*.spec
+
+# logs e dados de execução
+*.log
+
+# ícone gerado (recriável em source)
+build_icon.ico
+
+# lixo do sistema operacional
+desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/

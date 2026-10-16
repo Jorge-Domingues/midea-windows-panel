@@ -1,0 +1,5 @@
+msmart-ng==2026.9.0
+pywebview==6.2.1
+Pillow==12.3.0
+pystray==0.19.5
+psutil>=5.9.0
